@@ -1,3 +1,10 @@
+:root {
+    --primary-color--: #0b16ee;
+    --secondary-color--: #ffd100;
+    --accent-1--: #ce1126;
+    --accent-2--: #0bee31;
+}
+
 html {
     font-family: "Trebuchet MS", "Helvetica", sans-serif;
 }
@@ -9,4 +16,160 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Veranda", "Geneva", sans-serif;
+}
+
+header {
+    justify-items: center;
+    align-content: center;
+    height: 150px;
+    background-color: var(--secondary-color--);
+}
+
+.logo {
+    width: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    background-color: var(--primary-color--);
+    height: 60px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: .2s ease-in-out;
+}
+
+nav a:hover {
+    border-bottom: 2px solid var(--accent-1--);
+}
+
+#home {
+    grid-column: 2/3;
+}
+
+#destination {
+    grid-column: 3/4;
+}
+
+#tavel-tips {
+    grid-column: 4/5;
+}
+
+#hero {
+    background-image: url(../images/welcome-image.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    position: relative;;
+}
+
+#hero-image {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+}
+
+h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0 0 4px black;
+    text-align: center;
+    font-size: 30px;
+}
+
+h4 {
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.destinations {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: start;
+}
+
+.card {
+    margin: 10px;
+    padding: 20px;
+    height: 400px;
+    width: 250px;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--accent-1--);
+}
+
+.card-image {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card button {
+    border: none;
+    width: 100px;
+    padding: 6px;
+    font-size: 12px;
+    justify-self: center;
+    cursor: pointer;
+    background-color: var(--secondary-color--);
+    transition: .2s ease-in-out;
+}
+
+.card button:hover {
+    width: 99px;
+    background-color: var(--accent-2--);
+    box-shadow: 2px 2px 0 var(--secondary-color--), -2px -2px 0 var(--secondary-color--), -2px 2px 0 var(--secondary-color--), 2px -2px 0 var(--secondary-color--);
+    font-size: 11px;
+}
+
+subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+form {
+    width: 400px;
+    margin: 20px;
+    background-color: var(--accent-2--);
+    padding: 10px;
+}
+
+form h5 {
+    font-size: 20px;
+}
+
+form input {
+    border: 1px solid black;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--primary-color--);
+    color: white;
+    padding: 20px;
 }

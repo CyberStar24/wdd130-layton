@@ -8,39 +8,42 @@
 </head>
 <body>
     <header>
-        <img src="images/site-logo.png" alt="Site Logo">
+        <img src="images/site-logo.png" alt="Site Logo" class="logo">
         <h1>Your Philippine Escape</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="child1.html">Destination</a>
-            <a href="child2.html">Travel Tips</a>
-        </nav>
     </header>
+    <nav>
+        <a id="home" href="index.html">Home</a>
+        <a id="destination" href="child1.html">Destination</a>
+        <a id="travel-tips" href="child2.html">Travel Tips</a>
+    </nav>
     <main>
-        <section>
-            <img src="images/welcome-image.png" alt="Welcome Image">
-            <h3>“Welcome to Waves & Wonders – your local-inspired travel guide to the Philippines. Discover hidden beaches, authentic food, and local travel tips for the adventure of a lifetime!”</h2>
+        <section id="hero">
+            <div>
+                <h3>“Welcome to Waves & Wonders – your local-inspired travel guide to the Philippines. Discover hidden beaches, authentic food, and local travel tips for the adventure of a lifetime!”</h2>
+            </div>
         </section>
         <h4>Featured Destinations</h4>
-        <section>
-            <img src="images/palawan-image.png" alt="Palawan Image">
-            <h2>Palawan</h2>
-            <p>Known as the "Last Frontier," Palawan is a dreamland of limestone cliffs, secret lagoons, and turquoise waters.</p>
-            <button>Start Exploring</button>
-        </section>
-        <section>
-            <img src="images/cebu-image.png" alt="Cebu Image">
-            <h2>Cebu</h2>
-            <p>Perfect blend of city life and nature.</p>
-            <button>Start Exploring</button>
-        </section>
-        <section>
-            <img src="images/bohol-image.png" alt="Bohol Image">
-            <h2>Bohol</h2>
-            <p>Bohol offers a mix of nature and adventure.</p>
-            <button>Start Exploring</button>
-        </section>
-        <section>
+        <info class="destinations">
+            <section class="card">
+                <img class="card-image" src="images/palawan-image.png" alt="Palawan Image">
+                <h2>Palawan</h2>
+                <p>Known as the "Last Frontier," Palawan is a dreamland of limestone cliffs, secret lagoons, and turquoise waters.</p>
+                <button>Start Exploring</button>
+            </section>
+            <section class="card">
+                <img class="card-image" src="images/cebu-image.png" alt="Cebu Image">
+                <h2>Cebu</h2>
+                <p>Perfect blend of city life and nature.</p>
+                <button>Start Exploring</button>
+            </section>
+            <section class="card">
+                <img class="card-image" src="images/bohol-image.png" alt="Bohol Image">
+                <h2>Bohol</h2>
+                <p>Bohol offers a mix of nature and adventure.</p>
+                <button>Start Exploring</button>
+            </section>
+        </info>
+        <subscribe>
             <form action="">
                 <h5>Subscribe</h5>
                 <p>Simply enter your email below:</p>
@@ -48,13 +51,15 @@
                 <button type="submit">Subscribe</button>
                 <p>By subscribing, you agree to recieve emails from us and acknowledge our <a href="">Privacy Policy</a>.</p>
             </form>
-        </section>
+        </subscribe>
     </main>
     <footer>
         <p>&copy; 2023 Waves & Wonders</p>
-        <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
-        <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
-        <a href="https://www.twitter.com" target="_blank"><img src="images/x.png" alt="Twitter"></a>
+        <socials>
+            <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="https://www.twitter.com" target="_blank"><img src="images/x.png" alt="Twitter"></a>
+        </socials>
     </footer>
 </body>
 </html>
