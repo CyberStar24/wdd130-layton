@@ -117,6 +117,7 @@ h4 {
     justify-content: space-between;
     align-items: center;
     background-color: var(--accent-1--);
+    box-shadow: 1px 1px 5px black;
 }
 
 .card-image {
@@ -155,6 +156,7 @@ form {
     margin: 20px;
     background-color: var(--accent-2--);
     padding: 10px;
+    box-shadow: 1px 1px 5px black;
 }
 
 form h5 {
@@ -162,7 +164,34 @@ form h5 {
 }
 
 form input {
-    border: 1px solid black;
+    border: .1rem solid black;
+    background-color: rgb(242, 242, 242);
+    border-radius: 2px;
+    width: 15rem;
+    height: 1rem;
+    padding: .5rem;
+}
+
+form input:focus {
+    outline: none;
+    background-color: white;
+    color: black;
+}
+
+form button {
+    border: .1rem solid black;
+    border-radius: 4px;
+    width: 5rem;
+    height: 2rem;
+    padding: .5rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+form button:hover {
+    background-color: rgb(48, 48, 48);
 }
 
 footer {
