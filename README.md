@@ -1,4 +1,4 @@
-# wdd130-layton
+# wdd130-legaspi
 Client website for WDD130 class
 
 This will be a website for ~Kelson Layton~ Angelique Legaspi
