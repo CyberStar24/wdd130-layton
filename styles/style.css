@@ -216,6 +216,8 @@ footer {
     margin: 0 auto;
     margin-bottom: 40px;
     border: 1px solid black;
+    background-color: var(--secondary-color--);
+    box-shadow: 1px 1px 10px var(--primary-color--);
 }
 .tip ul {
     line-height: 2em;
