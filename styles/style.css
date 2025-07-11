@@ -264,6 +264,8 @@ footer {
 
 /*Destination Page CSS*/
 
+/*First Destination*/
+
 #first-destination h2{
     display: flex;
     justify-self: center;
@@ -277,6 +279,8 @@ footer {
 #must-visit{
     margin: 30px;
 }
+
+/*El Nido*/
 
 #nido-section{
     display: grid;
@@ -300,18 +304,22 @@ footer {
     grid-row: 2;
     grid-column: 2;
     color: white;
+    margin-top: 100px;
 }
 
 #nido-section p{
     grid-row: 3;
     grid-column: 2;
     color: white;
+    margin-top: 100px;
 }
+
+/*Coron*/
 
 #coron-section{
     display: grid;
     grid-template-rows: 15% 15% 30% 40%;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: #ce1126;
     height: 530px;
     margin: 30px;
@@ -319,20 +327,547 @@ footer {
 
 #coron-section h2{
     color: white;
+    grid-row: 2;
+    margin-left: 30px;
+    margin-top: 100px;
 }
 
 #coron-section p{
-    grid-row: 2;
+    grid-row: 3;
     grid-column: 1;
     color: white;
+    margin-left: 30px;
+    margin-top: 100px;
 }
 
 #shipwreck{
     grid-row: 2 / 3;
-    grid-column: 2;
+    grid-column: 3;
+    margin-left: 30px;
+    margin-top: 100px;
 }
 
 #kayangan{
     grid-row: 2 / 3;
-    grid-column: 3;
+    grid-column: 4;
+    margin-right: 20px;
+    margin-top: 100px;
+}
+
+#springs{
+    grid-row: 2 / 3;
+    grid-column:  2;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+/*Puerto Princesa*/
+
+#puertoprincesa-section{
+    display: grid;
+    grid-template-rows: 15% 15% 30% 40%;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ce1126;
+    height: 530px;
+    margin: 30px;
+}
+
+#puertoprincesa{
+    grid-row: 2 / 4;
+    grid-column: 1;
+    margin-left: 115px;
+    margin-top: -20px;
+}
+
+#undergroundriver{
+    grid-row: 4;
+    grid-column: 1;
+    margin-left: 100px;
+    margin-top: -20px;
+}
+
+#puertoprincesa-section h2{
+    grid-row: 2;
+    grid-column: 2;
+    color: white;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+#puertoprincesa-section p{
+    grid-row: 3;
+    grid-column: 2;
+    color: white;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+/*First Destination Foods*/
+
+#first-destination-foods{
+    background-color: #ce1126;
+    height: 1050px;
+    padding: 20px;
+}
+
+
+#first-destination-foods h2, #first-destination-foods p, #first-destination-foods img{
+    display: flex;
+    justify-self: center;
+    color: white;
+}
+
+/*Second Destination*/
+
+#second-destination h2{
+    display: flex;
+    justify-self: center;
+}
+
+#second-destination p{
+    display: flex;
+    text-align: center;
+}
+
+/*Kawasan Falls*/
+
+#kawasan-section{
+    display: grid;
+    grid-template-rows: 15% 15% 30% 40%;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ce1126;
+    height: 530px;
+    margin: 30px;
+}
+
+#kawasan-section h2{
+    grid-row: 2;
+    grid-column: 1;
+    color: white;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+#kawasan-section p{
+    grid-row: 3;
+    grid-column: 1;
+    color: white;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+
+#kawasanfalls{
+    grid-row: 2 / 4;
+    grid-column: 2;
+    width: 424px;
+    height: 245px;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+
+/*Oslob*/
+
+#oslob-section{
+    display: grid;
+    grid-template-rows: 15% 15% 30% 40%;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ce1126;
+    height: 530px;
+    margin: 30px;
+}
+
+#oslob-section h2{
+    grid-row: 2;
+    grid-column: 2;
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    justify-self: center;
+}
+
+#oslob-section p{
+    grid-row: 3;
+    grid-column: 2;
+    color: white;
+    margin-top: 100px;
+}
+
+#sharks{
+    grid-row: 2;
+    grid-column: 1;
+    display: flex;
+    justify-self: center;
+    margin-bottom: 30px;
+    display: flex;
+    justify-self: center;
+}
+
+#tumalogfalls{
+    grid-row: 4;
+    grid-column: 1;
+    display: flex;
+    justify-self: center;
+    margin-bottom: 30px;
+}
+
+/*Moalboal*/
+
+#moalboal-section{
+    display: grid;
+    grid-template-rows: 15% 15% 30% 40%;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ce1126;
+    height: 530px;
+    margin: 30px;
+}
+
+#moalboal-section h2{
+    grid-row: 2;
+    grid-column: 1;
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    justify-self: center;
+}
+
+#moalboal-section p{
+    grid-row: 3;
+    grid-column: 1;
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    justify-self: center;
+}
+
+#sardine{
+    grid-row: 2;
+    grid-column: 2;
+    width: 248px;
+    height: 314px;
+    display: flex;
+    justify-self: center;
+}
+
+/*Bantayan*/
+
+#bantayan-section{
+    display: grid;
+    grid-template-rows: 15% 15% 30% 40%;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ce1126;
+    height: 530px;
+    margin: 30px;
+}
+
+#bantayan-section h2{
+    grid-row: 2;
+    grid-column: 2;
+    color: white;
+    display: flex;
+    justify-self: center;
+    margin-top: 100px;
+}
+
+#bantayan-section p{
+    grid-row: 3;
+    grid-column: 2;
+    color: white;
+    display: flex;
+    justify-self: center;
+    margin-top: 100px;
+}
+
+#bantayan{
+    grid-row: 2;
+    grid-column: 1;
+    height: 306px; 
+    width: 390px;
+    margin-left: 100px;
+}
+
+/*Tops Lookout*/
+
+#tops-lookout-section{
+    display: grid;
+    grid-template-rows: 15% 15% 30% 40%;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ce1126;
+    height: 530px;
+    margin: 30px;
+}
+
+#tops-lookout-section h2{
+    grid-row: 2;
+    grid-column: 1;
+    color: white;
+    display: flex;
+    justify-self: center;
+    margin-top: 100px;
+}
+
+#tops-lookout-section p{
+    grid-row: 3;
+    grid-column: 1;
+    color: white;
+    display: flex;
+    justify-self: center;
+    margin-top: 100px;
+}
+
+#topslookout{
+    grid-row: 2;
+    grid-column: 2;
+    display: flex;
+    justify-self: center;
+    width: 352px;
+    height: 238px;
+    margin-top:70px;
+}
+
+/*Second Destination Foods*/
+
+#second-destination-food{
+    background-color: #ce1126;
+    height: 1010px;
+    padding: 20px;
+}
+
+#second-destination-food h2, #second-destination-food p, #second-destination-food img{
+    display: flex;
+    justify-self: center;
+    color: white;
+}
+
+#puso{
+    width: 191px;
+    height: 256px;
+}
+
+#ngohiong{
+    width: 246px;
+    height: 165px;
+}
+
+/*Third Destination*/
+
+#third-destination h2{
+    display: flex;
+    justify-self: center;
+}
+
+#third-destination p{
+    display: flex;
+    text-align: center;
+}
+
+/*Chocolate Hills*/
+
+#chocolate-section{
+    display: grid;
+    grid-template-rows: 15% 15% 30% 40%;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ce1126;
+    height: 530px;
+    margin: 30px;
+}
+
+#chocolate-section h2{
+    grid-row: 2;
+    grid-column: 2;
+    color: white;
+    display: flex;
+    justify-self: center;
+    margin-top: 100px;
+    margin-right: 30px;
+}
+
+#chocolate-section p{
+    grid-row: 3;
+    grid-column: 2;
+    color: white;
+    display: flex;
+    justify-self: center;
+    margin-top: 100px;
+    margin-right: 30px;
+}
+
+#chocolate{
+    grid-row: 2;
+    grid-column: 1;
+    display: flex;
+    justify-self: center;
+    width: 448px;
+    height: 278px;
+    margin-top: 50px;
+}
+
+/*Tarsier Sanctuary*/
+
+#tarsier-section{
+    display: grid;
+    grid-template-rows: 15% 15% 30% 40%;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ce1126;
+    height: 530px;
+    margin: 30px;
+}
+
+#tarsier-section h2{
+    grid-row: 2;
+    grid-column: 1;
+    color: white;
+    margin-left: 30px;
+    margin-top: 100px;
+    display: flex;
+    justify-self: center;
+}
+
+#tarsier-section p{
+    grid-row: 3;
+    grid-column: 1;
+    color: white;
+    margin-left: 30px;
+    margin-top: 100px;
+    display: flex;
+    justify-self: center;
+}
+
+#tarsier{
+    grid-row: 2;
+    grid-column: 2;
+    margin-top: 50px;
+    display: flex;
+    justify-self: center;
+    width: 439px;
+    height: 291px;
+}
+
+/*Loboc River*/
+
+#loboc-river-section{
+    display: grid;
+    grid-template-rows: 15% 15% 30% 40%;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ce1126;
+    height: 530px;
+    margin: 30px;
+}
+
+#loboc-river-section h2{
+    grid-row: 2;
+    grid-column: 1;
+    color: white;
+    display: flex;
+    justify-self: center;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+#loboc-river-section p{
+    grid-row: 3;
+    grid-column: 1;
+    color: white;
+    display: flex;
+    justify-self: center;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+#loboc{
+    grid-row: 2;
+    grid-column: 2;
+    height: 177px;
+    width: 239px;
+    display: flex;
+    justify-self: center;
+}
+
+#kayak{
+    grid-row: 4;
+    grid-column: 2;
+    height: 162px;
+    width: 246px;
+    display: flex;
+    justify-self: center;
+}
+
+/*Panglao Island*/
+
+/*Third Destination Food*/
+
+#third-destination-food{
+    background-color: #ce1126;
+    height: 1200px;
+    padding: 20px;
+}
+
+#third-destination-food h2, #third-destination-food p, #third-destination-food img{
+    display: flex;
+    justify-self: center;
+    color: white;
+}
+
+#peanut-kisses{
+    height: 223px;
+    width: 332px;
+}
+
+#calamay{
+    height: 247px;
+    width: 336px;
+}
+
+#ice-cream{
+    height: 336px;
+    width: 364px;
+}
+/*Fourth Destination*/
+
+#fourth-destination h2{
+    display: flex;
+    justify-self: center;
+}
+
+#fourth-destination p{
+    display: flex;
+    text-align: center;
+}
+
+/*White Beach*/
+
+/*Puka Beach*/
+
+/*Willy's Rock*/
+
+/*Paraw Sailing*/
+
+/*Popular Activites*/
+
+/*Fourth Destination Food*/
+
+#fourth-destination-food{
+    background-color: #ce1126;
+    height: 1450px;
+    padding: 20px;
+}
+
+#fourth-destination-food h2, #fourth-destination-food p, #fourth-destination-food img{
+    display: flex;
+    justify-self: center;
+    color: white;
+}
+
+#shaved-ice{
+    height: 421px;
+    width: 341px;
+}
+
+#tropical-shake{
+    height: 375px;
+    width: 311px;
+}
+
+#seafood2{
+    height: 253px;
+    width: 380px;
 }
