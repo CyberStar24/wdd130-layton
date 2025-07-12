@@ -793,6 +793,54 @@ footer {
 
 /*Panglao Island*/
 
+#panglao-island-section{
+    display: grid;
+    grid-template-rows: 15% 15% 30% 40%;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ce1126;
+    height: 530px;
+    margin: 30px;
+}
+
+#panglao-island-section h2{
+    grid-row: 2;
+    grid-column: 2;
+    color: white;
+    display: flex;
+    justify-self: center;
+    margin-top: 100px;
+}
+
+#panglao-island-section p{
+    grid-row: 3;
+    grid-column: 2;
+    color: white;
+    display: flex;
+    justify-self: center;
+    margin-top: 100px;
+    margin-right: 30px;
+
+}
+
+#panglao-island1{
+    grid-row: 2;
+    grid-column: 1;
+    display: flex;
+    justify-self: center;
+    width: 315px;
+    height: 177px;
+    margin-right: 30px;
+}
+
+#panglao-island2{
+    grid-row: 4;
+    grid-column: 1;
+    display: flex;
+    justify-self: center;
+    width: 300px;
+    height: 180px;
+}
+
 /*Third Destination Food*/
 
 #third-destination-food{
@@ -830,18 +878,209 @@ footer {
 
 #fourth-destination p{
     display: flex;
-    text-align: center;
+    justify-self: center;
 }
 
 /*White Beach*/
 
+#white-beach-section{
+    display: grid;
+    grid-template-rows: 15% 15% 30% 40%;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ce1126;
+    height: 530px;
+    margin: 30px;
+}
+
+#white-beach-section h2{
+    grid-row: 2;
+    grid-column: 1;
+    color: white;
+    display: flex;
+    justify-self: center;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+#white-beach-section p{
+    grid-row: 3;
+    grid-column: 1;
+    color: white;
+    display: flex;
+    justify-self: center;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+#white-beach{
+    grid-row: 2;
+    grid-column: 2;
+    display: flex;
+    justify-self: center;
+    width: 461px;
+    height: 303px;
+    margin-top: 75px;
+}
+
 /*Puka Beach*/
+
+#puka-beach-section{
+    display: grid;
+    grid-template-rows: 15% 15% 30% 40%;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ce1126;
+    height: 530px;
+    margin: 30px;
+}
+
+#puka-beach-section h2{
+    grid-row: 2;
+    grid-column: 2;
+    color: white;
+    display: flex;
+    justify-self: center;
+    margin-right: 30px;
+    margin-top: 100px;
+}
+
+#puka-beach-section p{
+    grid-row: 3;
+    grid-column: 2;
+    color: white;
+    display: flex;
+    justify-self: center;
+    margin-right: 30px;
+    margin-top: 100px;
+}
+
+#puka-beach{
+    grid-row: 2;
+    grid-column: 1;
+    display: flex;
+    justify-self: center;
+    width: 508px;
+    height: 284px;
+    margin-top: 75px;
+}
 
 /*Willy's Rock*/
 
+#willy-rock-section{
+    display: grid;
+    grid-template-rows: 15% 15% 30% 40%;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ce1126;
+    height: 530px;
+    margin: 30px;
+}
+
+#willy-rock-section h2{
+    grid-row: 2;
+    grid-column: 1;
+    color: white;
+    display: flex;
+    justify-self: center;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+#willy-rock-section p{
+    grid-row: 3;
+    grid-column: 1;
+    color: white;
+    display: flex;
+    justify-self: center;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+#willy-rock{
+    grid-row: 2;
+    grid-column: 2;
+    display: flex;
+    justify-self: center;
+    margin-top: 75px;
+    width: 473px;
+    height: 264px;
+}
+
 /*Paraw Sailing*/
 
+#paraw-sailing-section{
+    display: grid;
+    grid-template-rows: 15% 15% 30% 40%;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ce1126;
+    height: 530px;
+    margin: 30px;
+}
+
+#paraw-sailing-section h2{
+    grid-row: 2;
+    grid-column: 2;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    margin-top: 100px;
+}
+
+#paraw-sailing-section p{
+    grid-row: 3;
+    grid-column: 2;
+    color: white;
+    display: flex;
+    justify-self: center;
+    margin-right: 30px;
+    margin-top: 100px;
+}
+
+#paraw-sailing{
+    grid-row: 2;
+    grid-column: 1;
+    display: flex;
+    justify-self: center;
+    margin-top: 75px;
+    width: 409px;
+    height: 259px;
+}
+
 /*Popular Activites*/
+
+#popular-activities-section{
+    display: grid;
+    grid-template-rows: 20% 80%;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ce1126;
+    height: 530px;
+    margin: 30px;
+}
+
+#popular-activities-section h2{
+    grid-row: 1;
+    grid-column: 1;
+    display: flex;
+    justify-self: center;
+    color: white;
+    margin-left: 30px;
+}
+
+#popular-activities-section li{
+    grid-row: 2;
+    grid-column: 1;
+    color: white;
+    margin-left: 30px;
+}
+
+#popular-activities{
+    grid-row: 1;
+    grid-column: 2;
+    display: flex;
+    justify-self: center;
+    margin-top: 130px;
+    width: 382px;
+    height: 285px;
+}
 
 /*Fourth Destination Food*/
 
