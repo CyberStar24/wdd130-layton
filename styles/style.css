@@ -1112,3 +1112,96 @@ footer {
     height: 253px;
     width: 380px;
 }
+
+@media (max-width: 768px) {
+    #nido-section,
+    #coron-section,
+    #puertoprincesa-section,
+    #kawasan-section,
+    #oslob-section,
+    #moalboal-section,
+    #bantayan-section,
+    #tops-lookout-section,
+    #chocolate-section,
+    #tarsier-section,
+    #loboc-river-section,
+    #panglao-island-section,
+    #white-beach-section,
+    #puka-beach-section,
+    #willy-rock-section,
+    #paraw-sailing-section,
+    #popular-activities-section {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: 15px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    h2, p {
+        margin: 10px auto;
+        text-align: center;
+        justify-content: center !important;
+    }
+
+    #elnido,
+    #shipwreck,
+    #kayangan,
+    #springs,
+    #puertoprincesa,
+    #undergroundriver,
+    #kawasanfalls,
+    #sharks,
+    #tumalogfalls,
+    #sardine,
+    #bantayan,
+    #topslookout,
+    #chocolate,
+    #tarsier,
+    #loboc,
+    #kayak,
+    #panglao-island1,
+    #panglao-island2,
+    #white-beach,
+    #puka-beach,
+    #willy-rock,
+    #paraw-sailing,
+    #popular-activities {
+        width: 100% !important;
+        margin: 10px auto !important;
+        object-fit: contain;
+    }
+
+    #first-destination-foods,
+    #second-destination-food,
+    #third-destination-food,
+    #fourth-destination-food {
+        height: auto;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    #puso, #ngohiong, #peanut-kisses, #calamay, #ice-cream,
+    #shaved-ice, #tropical-shake, #seafood2 {
+        width: 80% !important;
+        height: auto !important;
+        object-fit: contain;
+    }
+
+    #popular-activities {
+        margin-top: 30px;
+        object-fit: cover;
+    }
+}
